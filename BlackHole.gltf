@@ -1,0 +1,154 @@
+{
+   "accessors" : [
+      {
+         "bufferView" : 0,
+         "componentType" : 5123,
+         "count" : 4716,
+         "max" : [ 4715 ],
+         "min" : [ 0 ],
+         "name" : "buffer-0-accessor-indices-buffer-0-mesh-0",
+         "type" : "SCALAR"
+      },
+      {
+         "bufferView" : 2,
+         "componentType" : 5126,
+         "count" : 4716,
+         "max" : [ 15.90024757385254, 39.10764312744141, 14.44885444641113 ],
+         "min" : [ -15.01004791259766, 0, -14.76444435119629 ],
+         "name" : "buffer-0-accessor-position-buffer-0-mesh-0",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 2,
+         "byteOffset" : 56592,
+         "componentType" : 5126,
+         "count" : 4716,
+         "max" : [ 0.9989989995956421, 0.999351978302002, 0.9996399879455566 ],
+         "min" : [ -0.99931800365448, -0.9993590116500854, -0.9996399879455566 ],
+         "name" : "buffer-0-accessor-normal-buffer-0-mesh-0",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 1,
+         "componentType" : 5126,
+         "count" : 4716,
+         "max" : [ 0.9891660213470459, 0 ],
+         "min" : [ 0, -0.9949420094490051 ],
+         "name" : "buffer-0-accessor-texcoord-buffer-0-mesh-0",
+         "type" : "VEC2"
+      },
+      {
+         "bufferView" : 3,
+         "componentType" : 5126,
+         "count" : 0,
+         "max" : [ 0, 0, 0, 0 ],
+         "min" : [ 0, 0, 0, 0 ],
+         "name" : "buffer-0-accessor-color-buffer-0-mesh-0",
+         "type" : "VEC4"
+      }
+   ],
+   "asset" : {
+      "generator" : "Obj2GltfConverter",
+      "version" : "2.0"
+   },
+   "bufferViews" : [
+      {
+         "buffer" : 0,
+         "byteLength" : 9432,
+         "byteStride" : 0,
+         "name" : "buffer-0-bufferview-ushort",
+         "target" : 34963
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 37728,
+         "byteOffset" : 9432,
+         "byteStride" : 8,
+         "name" : "buffer-0-bufferview-vec2",
+         "target" : 34962
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 113184,
+         "byteOffset" : 47160,
+         "byteStride" : 12,
+         "name" : "buffer-0-bufferview-vec3",
+         "target" : 34962
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 1,
+         "name" : "buffer-0-bufferview-vec4"
+      }
+   ],
+   "buffers" : [
+      {
+         "byteLength" : 160352,
+         "name" : "buffer-0",
+         "uri" : "BlackHole.bin"
+      }
+   ],
+   "images" : [
+      {
+         "mimeType" : "image/png",
+         "name" : "BlackHole:Blackhole_mat-image",
+         "uri" : "BlackHole_BaseColor.png"
+      }
+   ],
+   "materials" : [
+      {
+         "doubleSided" : true,
+         "name" : "BlackHole:Blackhole_mat",
+         "pbrMetallicRoughness" : {
+            "baseColorFactor" : [ 0.5, 0.5, 0.5, 1 ],
+            "baseColorTexture" : {
+               "index" : 0
+            },
+            "metallicFactor" : 0,
+            "roughnessFactor" : 0.9699476628648295
+         }
+      }
+   ],
+   "meshes" : [
+      {
+         "name" : "buffer-0-mesh-0",
+         "primitives" : [
+            {
+               "attributes" : {
+                  "NORMAL" : 2,
+                  "POSITION" : 1,
+                  "TEXCOORD_0" : 3
+               },
+               "indices" : 0,
+               "material" : 0
+            }
+         ]
+      }
+   ],
+   "nodes" : [
+      {
+         "mesh" : 0,
+         "name" : "node-0"
+      }
+   ],
+   "samplers" : [
+      {
+         "name" : "BlackHole:Blackhole_mat-sampler",
+         "wrapS" : 10497,
+         "wrapT" : 10497
+      }
+   ],
+   "scenes" : [
+      {
+         "name" : "scene-0",
+         "nodes" : [ 0 ]
+      }
+   ],
+   "textures" : [
+      {
+         "name" : "BlackHole:Blackhole_mat-texture",
+         "sampler" : 0,
+         "source" : 0
+      }
+   ]
+}
